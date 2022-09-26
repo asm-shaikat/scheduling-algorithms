@@ -6,6 +6,7 @@ CT = 0
 TA = 0
 WT = 0
 sum = 0
+sum1 = 0
 CTA = []
 ATA = [] 
 TAA = []
@@ -32,9 +33,10 @@ for i in WTA:
 print("Waiting time",WTA)
 print("Average waiting time:",sum/n)
 
-# for i in range(n):
-#     TA = WTA[i] + bt[i]
-#     TAA.append(TA)
+for i in range(n):
+    TA = WTA[i] + bt[i]
+    sum1 = sum1 + TA;
+    TAA.append(TA)
 
 # print("Completion time",CTA)
-# print("Turn Around time",TAA)
+print("Turn Around time",sum1/n)

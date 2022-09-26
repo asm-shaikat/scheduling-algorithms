@@ -78,4 +78,5 @@ int main()
     }
 
     cout<<"awt="<<awt<<endl;  //average waiting time and turn around time
+    cout<<"atat="<<atat<<endl;
 }

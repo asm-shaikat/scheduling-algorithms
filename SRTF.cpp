@@ -111,6 +111,6 @@ int main()
   }
 
   printf("\n WAvG==>\t%f\n", (wavg / n));
-
+  printf("\n tavg==>\t%f\n", (tavg / n));
   return 0;
 }
