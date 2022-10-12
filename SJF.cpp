@@ -1,9 +1,8 @@
 // TAT = CT-AT
 // WT = TAT-BT
-
 #include<iostream>
-
 using namespace std;
+
 int main()
 {
       int n,temp,tt=0,min,d,i,j;

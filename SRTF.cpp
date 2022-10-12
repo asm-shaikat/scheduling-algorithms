@@ -87,7 +87,6 @@ int main()
   {
 
     for (j = 0; j < n; j++)
-
     {
 
       if (procs[i] == j)
